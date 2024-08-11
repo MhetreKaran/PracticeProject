@@ -8,8 +8,8 @@ export function LivePage(props) {
   return (
       <View style={{flex: 1}}>
           <ZegoUIKitPrebuiltLiveStreaming
-            appID={1234} // Your App ID
-            appSign='yourAppSign'
+            appID={512931578} // Your App ID
+            appSign='e20ff4a4f1838f295a0b2e695ed2c8d22bea24b693e60277a8e52d75a306deb6'
             userID={randomUserID}
             userName={'user_'+randomUserID}
             liveID='testLiveID'
